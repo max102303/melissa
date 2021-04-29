@@ -1,0 +1,7 @@
+git clone https://github.com/Melissa-AI/Melissa-Core.git
+cd Melissa-Core
+pip install -r requirements.txt
+cd melissa
+cp data/memory.db.default data/memory.db
+brew install flac
+FLASK_APP=melissa/__main__.py flask run
